@@ -1,0 +1,120 @@
+@import url(nav.css);
+@import url(index.css);
+@import url(reserva.css);
+
+/* Container */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, "Trebuchet MS", sans-serif;
+  background: #fff url(../imagens/bg.png);
+}
+
+#container-2-colunas {
+  background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
+  margin: 0 auto;
+  min-width: 740px;
+  max-width: 1180px;
+}
+
+#container-1-coluna {
+  background: #ede9cc;
+  margin: 0 auto;
+  min-width: 740px;
+  max-width: 1180px;
+}
+/* \\Container */
+
+/* Formatação de texos */
+p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+h2 {
+  color: #7d7640;
+  font-size: 2em;
+}
+/* \\Formatação de texos */
+
+/* main */
+.conteudo {
+  margin: 0 auto;
+  width: 90%;
+}
+/* Area principal */
+#area-principal {
+  float: left;
+  width: 50%;
+  background: url(../imagens/bg-area-principal.png) top left repeat-x;
+  padding: 15px 0px;
+}
+/* \\Area principal */
+/* Area lateral */
+#area-lateral {
+  float: right;
+  width: 50%;
+  background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+  padding: 20px 0px;
+}
+
+#menu-conteudo li {
+  padding: 8px;
+  border-bottom: 1px solid #f3efcb;
+  height: 6em;
+}
+
+
+#menu-conteudo li a img {
+  display: inline;
+  float: left;
+  margin-right: 8px;
+}
+
+#menu-conteudo li a h3 {
+  font-size: 1em;
+  color: #615b2d;
+  padding: 5px 0;
+  background: url(../imagens/ornamento.png) no-repeat center right;
+}
+
+#menu-conteudo li a p {
+  font-size: 0.8em;
+  color: #000;
+}
+
+#menu-conteudo li:hover {
+  transition: 0.5s;
+  background: #f6f3d6;
+  cursor: pointer;
+}
+/* \\Area lateral */
+/* Area principal 1 coluna */
+#area-principal1 {
+  float: left;
+  width: 100%;
+  background: url(../imagens/bg-area-principal.png) top left repeat-x;
+  padding: 15px 0px;
+}
+/* \\Area principal 1 coluna */
+
+/* Fotos */
+.moldura {
+  border: #f7f1bc 10px solid;
+  width: 550px;
+}
+/* \\Fotos */
+/* \\main */
+/* footer */
+.clear {
+  clear: both;
+}
+footer {
+  padding: 16px;
+  background: #fff url(../imagens/bg-rodape.png) repeat-x top;
+  color: #7d7640;
+  text-align: center;
+}
+/* \\footer */
